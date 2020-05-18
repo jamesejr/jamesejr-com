@@ -1,45 +1,50 @@
-baseURL = "/"
-languageCode = "en-us"
-theme = "hello-friend-ng"
+baseURL = "https://jamesejr.com/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "James Espinosa"
+theme = "hallo"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+
+[Author]
+  name = "James Espinosa"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+  greeting = "Hello."
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+  [[params.links]]
+      iconset = "fas"
+      icon = "envelope"
+      title = "E-mail"
+      url = "mailto:jamesejr@gmail.com"
 
-  # Metadata mostly used in document's head
-  description = "Security Engineer, Threat Detection and Response."
-  keywords = "homepage, blog"
-  images = [""]
+  [[params.links]]
+      icon = "linkedin"
+      title = "LinkedIn"
+      url = "https://www.linkedin.com/in/jamesejr"
 
-  # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
+  [[params.links]]
+      icon = "github"
+      title = "GitHub"
+      url = "https://github.com/jamesejr"
 
-  # Default theme "light" or "dark"
-  defaultTheme = "dark"
+  [[params.links]]
+    icon = "twitter"
+    title = "Twitter"
+    url = "https://twitter.com/jamesejr7"
 
-[languages]
-  [languages.en]
-    title = "James Espinosa"
-    subtitle = "Security Engineer, Threat Detection and Response."
-    keywords = ""
-    copyright = "All content copyright James Espinosa © 2020. All rights reserved."
-    readOtherPosts = "Read other posts"
+  [[params.links]]
+    icon = "instagram"
+    title = "Instagram"
+    url = "https://www.instagram.com/jamesejr"
 
-    [languages.en.params.logo]
-      logoText = "James Espinosa"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+  [[params.links]]
+    iconset = "fas"
+    icon = "file-alt"
+    title = "Resume"
+    url = "#"
 
-  # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+  [params.colors]
+      background = "#2b303b"
+      foreground = "#edf7ff"
+      hover = "#ffba82"

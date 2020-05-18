@@ -10,4 +10,5 @@ bucket = "public"
 entry-point = "workers-site"
 
 [env.staging]
-workers_dev = true
+name = "blog-staging"
+route = "blog-staging.jamesejr.com/*"
