@@ -21,7 +21,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
   [[params.links]]
       icon = "linkedin"
       title = "LinkedIn"
-      url = "https://www.linkedin.com/in/jamesejr"
+      url = "https://linkedin.com/in/jamesejr"
 
   [[params.links]]
       icon = "github"
@@ -36,7 +36,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
   [[params.links]]
     icon = "instagram"
     title = "Instagram"
-    url = "https://www.instagram.com/jamesejr"
+    url = "https://instagram.com/jamesejr"
 
   [[params.links]]
     iconset = "fas"
