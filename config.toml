@@ -19,6 +19,11 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
       url = "mailto:jamesejr@gmail.com"
 
   [[params.links]]
+      icon = "medium-m"
+      title = "Medium"
+      url = "https://medium.com/@jamesejr"
+
+  [[params.links]]
       icon = "linkedin"
       title = "LinkedIn"
       url = "https://linkedin.com/in/jamesejr"
