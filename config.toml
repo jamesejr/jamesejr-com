@@ -47,7 +47,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     iconset = "fas"
     icon = "file-alt"
     title = "Resume"
-    url = "#"
+    url = "https://resume.io/r/quANJoF1R"
 
   [params.colors]
       background = "#2b303b"
