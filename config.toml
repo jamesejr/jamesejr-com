@@ -47,7 +47,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     iconset = "fas"
     icon = "file-alt"
     title = "Resume"
-    url = "https://jamesejr.com/files/Espinosa_James-Resume.pdf"
+    url = "https://jamesejr.com/files/resume.pdf"
 
   [params.colors]
       background = "#2b303b"
