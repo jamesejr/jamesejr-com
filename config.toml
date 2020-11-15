@@ -44,6 +44,11 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     url = "https://instagram.com/jamesejr"
 
   [[params.links]]
+    icon = "keybase"
+    title = "Keybase"
+    url = "https://keybase.io/jamesejr"
+
+  [[params.links]]
     iconset = "fas"
     icon = "file-alt"
     title = "Resume"
