@@ -3,7 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jamesejr.com/categories/</loc>
+  </url>
+  
+  <url>
     <loc>https://jamesejr.com/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jamesejr.com/series/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jamesejr.com/tags/</loc>
   </url>
   
 </urlset>
