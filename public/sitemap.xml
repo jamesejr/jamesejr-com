@@ -3,11 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jamesejr.com/categories/</loc>
+    <loc>https://jamesejr.com/about/</loc>
+    <lastmod>2021-01-10T22:24:59-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://jamesejr.com/</loc>
+    <lastmod>2021-01-10T22:24:59-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesejr.com/posts/2020-year-in-review/</loc>
+    <lastmod>2021-01-10T22:24:07-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesejr.com/posts/</loc>
+    <lastmod>2021-01-10T22:24:07-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jamesejr.com/categories/</loc>
   </url>
   
   <url>

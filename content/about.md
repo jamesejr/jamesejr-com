@@ -1,5 +1,64 @@
 ---
 title: "About"
 date: 2021-01-10T22:24:59-08:00
-draft: true
+draft: false
 ---
+
+Hello, I'm James. I lead a team of security engineers focused on threat detection and response work at [Cloudflare](https://cloudflare.com). I'm interested in building and scaling a threat detection program, incident response, and detection engineering.
+
+If you'd like to connect, please send me an [e-mail](mailto:jamesejr@gmail.com). For end-to-end encryption, you can use my public PGP key below or [Wickr Me](https://wickr.com/me/) at `@jamesejr`.
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+iWGzNV5JdULAGco=
+=diRi
+-----END PGP PUBLIC KEY BLOCK-----
+```
