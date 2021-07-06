@@ -1,81 +1,52 @@
 baseURL = "https://jamesejr.com/"
 languageCode = "en"
-enableInlineShortcodes = true
+defaultContentLanguage = "en"
+googleAnalytics = "G-PGXTFKV49B"
 
 title = "James Espinosa"
-theme = "soho"
+theme = "hallo"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
-summarylength = 10
-enableEmoji = true
-paginate = 5
+[Author]
+  name = "James Espinosa"
 
 [params]
-  author = "James Espinosa"
-  description = "Threat Detection & Response"
+  greeting = "Hello."
 
-  profilePicture = "images/profile.png"
+  [[params.links]]
+      iconset = "fas"
+      icon = "envelope"
+      title = "E-mail"
+      url = "mailto:jamesejr@gmail.com"
 
-  copyright = "James Espinosa"
-  license = "All rights reserved."
-  builtWith = false
-  mainSections = ["posts"]
+  [[params.links]]
+      iconset = "fas"
+      #icon = "rss"
+      icon = "stream"
+      title = "Blog"
+      url = "https://jamesejr.ghost.io"
 
-  themeColor = "#2b303b"
+  [[params.links]]
+      icon = "linkedin"
+      title = "LinkedIn"
+      url = "https://linkedin.com/in/jamesejr"
 
-  [[params.socialIcons]]
-    icon = "fas fa-envelope"
-    title = "E-mail"
-    url = "mailto:jamesejr@gmail.com"
+  [[params.links]]
+      icon = "github"
+      title = "GitHub"
+      url = "https://github.com/jamesejr"
 
-  [[params.socialIcons]]
-    icon = "fa-linkedin"
-    title = "LinkedIn"
-    url = "https://linkedin.com/in/jamesejr"
-
-  [[params.socialIcons]]
-    icon = "fa-github"
-    title = "GitHub"
-    url = "https://github.com/jamesejr"
-
-  [[params.socialIcons]]
-    icon = "fa-twitter"
+  [[params.links]]
+    icon = "twitter"
     title = "Twitter"
     url = "https://twitter.com/jamesejr7"
 
-  [[params.socialIcons]]
-    icon = "fa-keybase"
-    title = "Keybase"
-    url = "https://keybase.io/jamesejr"
+  [[params.links]]
+    icon = "instagram"
+    title = "Instagram"
+    url = "https://instagram.com/jamesejr"
 
-[menu]
-
-  [[menu.main]]
-    name = "Posts"
-    weight = 100
-    identifier = "posts"
-    url = "/posts/"
-
-  [[menu.main]]
-    name = "About"
-    weight = 300
-    identifier = "about"
-    url = "/about/"
-
-[taxonomies]
-
-  category = "categories"
-  series = "series"
-  tag = "tags"
-
-[markup]
-
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "monokai"
-    tabWidth = 4
+  [params.colors]
+      background = "#2b303b"
+      foreground = "#edf7ff"
+      hover = "#ffba82"
