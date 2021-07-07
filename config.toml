@@ -24,7 +24,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
       #icon = "rss"
       icon = "stream"
       title = "Blog"
-      url = "https://jamesejr.ghost.io"
+      url = "https://blog.jamesejr.com"
 
   [[params.links]]
       icon = "linkedin"
