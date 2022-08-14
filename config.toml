@@ -47,6 +47,6 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     url = "https://instagram.com/jamesejr"
 
   [params.colors]
-      background = "#2b303b"
+      background = "#282c34"
       foreground = "#edf7ff"
       hover = "#ffba82"
