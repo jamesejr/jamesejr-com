@@ -14,27 +14,26 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
   greeting = "Hello."
 
   [[params.links]]
-      iconset = "fas"
-      icon = "envelope"
-      title = "E-mail"
-      url = "mailto:hello@jamesejr.com"
+    iconset = "fas"
+    icon = "envelope"
+    title = "E-mail"
+    url = "mailto:hello@jamesejr.com"
 
   [[params.links]]
-      iconset = "fas"
-      #icon = "rss"
-      icon = "stream"
-      title = "Blog"
-      url = "https://blog.jamesejr.com"
+    iconset = "fas"
+    icon = "stream"
+    title = "Blog"
+    url = "https://blog.jamesejr.com"
 
   [[params.links]]
-      icon = "linkedin"
-      title = "LinkedIn"
-      url = "https://linkedin.com/in/jamesejr"
+    icon = "linkedin"
+    title = "LinkedIn"
+    url = "https://linkedin.com/in/jamesejr"
 
   [[params.links]]
-      icon = "github"
-      title = "GitHub"
-      url = "https://github.com/jamesejr"
+    icon = "github"
+    title = "GitHub"
+    url = "https://github.com/jamesejr"
 
   [[params.links]]
     icon = "twitter"
@@ -47,6 +46,6 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     url = "https://instagram.com/jamesejr"
 
   [params.colors]
-      background = "#282c34"
-      foreground = "#edf7ff"
-      hover = "#ffba82"
+    background = "#191a1f"
+    foreground = "#edf7ff"
+    hover = "#9c9cfb"
