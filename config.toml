@@ -36,13 +36,8 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     url = "https://github.com/jamesejr"
 
   [[params.links]]
-    icon = "mastodon"
-    title = "Mastodon"
-    url = "https://infosec.exchange/@jamesejr"
-
-  [[params.links]]
-    icon = "x-twitter"
-    title = "X"
+    icon = "twitter"
+    title = "Twitter"
     url = "https://twitter.com/jamesejr7"
 
   [[params.links]]
