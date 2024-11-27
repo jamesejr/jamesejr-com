@@ -2,7 +2,8 @@ baseURL: https://jamesejr.com/
 languageCode: en-us
 title: James Espinosa
 theme: ["PaperMod"]
-paginate: 5
+pagination:
+  pagerSize: 5
 
 params:
   env: production
@@ -38,8 +39,6 @@ params:
       url: "https://github.com/jamesejr"
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/jamesejr"
-    - name: "X"
-      url: "https://twitter.com/jamesejr7"
     - name: "Mastodon"
       url: "https://infosec.exchange/@jamesejr"
     - name: "Bluesky"
