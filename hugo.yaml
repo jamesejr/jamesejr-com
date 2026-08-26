@@ -23,7 +23,7 @@ params:
     title: "James Espinosa"
     subtitle: "Security Engineer @ Discord. Detection & Response Engineering.\n\nInterested in technology, food, travel, and photography."
     keywords: [blog, security, technology, travel, photography]
-    imageUrl: "/images/avatar.png"
+    imageUrl: "/images/avatar.jpg"
     buttons:
       - name: Posts
         url: "/posts"
@@ -52,10 +52,10 @@ menu:
   main:
     - name: About
       url: "/about"
-    - name: Projects
-      url: "/projects"
     - name: Contact
       url: "/contact"
+    - name: Posts
+      url: "/posts"
     - name: Search
       url: "/search"
 
