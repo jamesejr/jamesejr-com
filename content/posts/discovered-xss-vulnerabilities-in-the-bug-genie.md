@@ -1,7 +1,6 @@
 +++
 title = 'Discovered XSS vulnerabilities in The Bug Genie'
 author = ['James Espinosa']
-description = 'Vulnerability research into multiple XSS issues in The Bug Genie.'
 date = 2013-05-14T21:00:00-08:00
 draft = false
 tags = ['Vulnerability Research']

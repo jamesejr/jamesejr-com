@@ -1,3 +1,3 @@
-[submodule "themes/PaperMod"]
-	path = themes/PaperMod
-	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/hugo-theme-condensate"]
+	path = themes/hugo-theme-condensate
+	url = https://github.com/jamesejr/hugo-theme-condensate

@@ -1,7 +1,6 @@
 +++
 title = 'Perl Shellbot.B trojan activity'
 author = ['James Espinosa']
-description = 'Analysis of Perl Shellbot.B malware activity.'
 date = 2013-10-10T21:00:00-08:00
 draft = false
 tags = ['Malware Analysis', 'Reverse Engineering']

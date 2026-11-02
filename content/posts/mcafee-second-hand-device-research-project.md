@@ -1,7 +1,6 @@
 +++
 title = 'Mcafee second-hand device research project'
 author = ['James Espinosa']
-description = 'Research on risks associated with second hand storage devices.'
 date = 2014-05-01T18:00:00-08:00
 draft = false
 tags = ['Digital Forensics']
