@@ -1,66 +1,37 @@
 baseURL: https://jamesejr.com/
-languageCode: en-us
+locale: en-US
 title: James Espinosa
-theme: ["PaperMod"]
+theme: ["hugo-theme-condensate"]
 pagination:
   pagerSize: 5
 
+taxonomies:
+  tag: tags
+
+markup:
+  highlight:
+    noClasses: false
+
 params:
-  env: production
   description: "Security engineer interested in technology, food, travel, and photography."
-  author: "James Espinosa"
+  tagline: "Security Engineer @ Discord. Detection & Response Engineering. Interested in technology, food, travel, and photography."
+  avatar: "images/avatar.jpg"
+  favicon: "favicon.ico"
+  colorScheme: dark
+  showThemeToggle: true
+  showReadingTime: true
 
-  defaultTheme: dark
-
-  ShowReadingTime: true
-  ShowShareButtons: false
-  ShowPostNaButtons: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-
-  profileMode:
-    enabled: true
-    title: "James Espinosa"
-    subtitle: "Security Engineer @ Discord. Detection & Response Engineering.\n\nInterested in technology, food, travel, and photography."
-    keywords: [blog, security, technology, travel, photography]
-    imageUrl: "/images/avatar.jpg"
-    buttons:
-      - name: Posts
-        url: "/posts"
-      - name: Tags
-        url: "/tags"
-      - name: Archives
-        url: "/archives"
-
-  socialIcons:
-    - name: "Email"
-      url: "mailto:hello@jamesejr.com"
-    - name: "GitHub"
-      url: "https://github.com/jamesejr"
-    - name: "LinkedIn"
-      url: "https://www.linkedin.com/in/jamesejr"
-    - name: "Bluesky"
-      url: "https://bsky.app/profile/jamesejr.com"
-    - name: "Discord"
-      url: "https://discordapp.com/users/462067475954139146"
-    - name: "Mastodon"
-      url: "https://infosec.exchange/@jamesejr"
-    - name: "CV"
-      url: "#"
-
-menu:
+menus:
   main:
-    - name: About
-      url: "/about"
-    - name: Contact
-      url: "/contact"
     - name: Posts
-      url: "/posts"
-    - name: Search
-      url: "/search"
-
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
+      url: "/"
+      weight: 10
+    - name: Tags
+      url: "/tags/"
+      weight: 20
+    - name: About
+      url: "/about/"
+      weight: 30
+    - name: Contact
+      url: "/contact/"
+      weight: 40

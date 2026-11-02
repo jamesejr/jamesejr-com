@@ -1,7 +1,6 @@
 +++
 title = 'Crossing the other side of the bridge'
 author = ['James Espinosa']
-description = 'Starting a new journey in the west coast.'
 date = 2019-04-01T22:27:00-08:00
 draft = false
 tags = ['Annoucements']

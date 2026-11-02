@@ -1,13 +1,17 @@
 ---
 title: "Contact"
-layout: "contact"
-showtoc: false
-hidemeta: true
-showreadingtime: false
 summary: Contact information
 ---
 
-If you'd like to chat about anything, feel free to connect with me via DM on any of my social profiles linked on my page. You're also welcome to email me!
+If you'd like to chat, feel free to connect with me on any of my social profiles linked below. You're also welcome to email me at `hello@` on this domain!
+
+- [Codeberg](https://codeberg.org/jamesejr)
+- [GitHub](https://github.com/jamesejr)
+- [LinkedIn](https://www.linkedin.com/in/jamesejr)
+- [Bluesky](https://bsky.app/profile/jamesejr.com)
+- [Mastodon](https://infosec.exchange/@jamesejr)
+
+My PGP public key, if you'd like to send something encrypted:
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

@@ -1,7 +1,6 @@
 +++
 title = 'Booting the kernel again'
 author = ['James Espinosa']
-description = 'Getting back into writting on my blog again.'
 date = 2019-01-31T22:01:00-08:00
 draft = false
 tags = ['Annoucements']

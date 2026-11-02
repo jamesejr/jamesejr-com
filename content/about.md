@@ -1,9 +1,5 @@
 ---
 title: "About Me"
-layout: "about"
-showtoc: false
-hidemeta: true
-showreadingtime: false
 summary: Background information
 ---
 
